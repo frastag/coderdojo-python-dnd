@@ -26,7 +26,17 @@ def main():
         magia = 10
 
     print("Benvenuto", nome, "la classe del tuo personaggio è", classe, "e hai", vita, "punti vita,", forza,
-          "punti forza,", magia, "punti magia e come animale hai", animale)
+          "punti forza,", magia, "punti magia.")
+
+    # Esempio di attacco e difesa nemico
+    attacco = 10
+    difesa_nemico = 3
+
+    if attacco > difesa_nemico:
+        print("Attacco perfetto!")
+    elif attacco <= difesa_nemico:
+        print("Il memico ha parato il tuo attacco!")
+
 
 
 if __name__ == "__main__":

@@ -108,10 +108,40 @@ else:
 
 ---
 
-## 📝 Riassunto della lezione
+## 🎯 Slide 8 — Il modulo random
+
+1. Per simulare scelte casuali usiamo il modulo `random`
+2. Questo modulo può essere usato sia per simulare scelte casuali tra numeri (ad esempio il tiro di dati), ma anche scelte casuali tra stringhe all'interno di un array (ad esempio la scelta casuale della classe del nostro personaggio)
+
+Esempio di modulo random per la selezione di un numero casuale
+
+```python
+import random
+
+dado = random.randint(1, 20)
+print("Hai tirato:", dado)
+
+randint(1, 20)  # restituisce un numero intero a caso tra 1 e 20 (compresi).
+```
+
+Esempio di modulo random per la selezione casuale della classe di un personaggio
+
+```python
+import random
+
+classi_disponibili = ["guerriero", "ladro", "mago"] # dichiarazione array con le classi disponibili
+classe = random.choice(classi_disponibili) # restituisce una classe casuale tra quelle disponibili
+```
+
+---
+
+## 📝 Riassunto dell'incontro
 
 - `>`, `<`, `==`, `!=`, `>=`, `<=` → confrontano due valori e danno True/False
 - `if` esegue codice solo se una condizione è vera
 - `else` esegue codice quando la condizione è falsa
 - `elif` permette di controllare più condizioni in sequenza
 - Attenzione a `:` e all'indentazione!
+- `import random` → per importare il modulo per le generazioni casuali di numeri o stringhe (a partire da un insieme di numeri o stringhe)
+- `randint(1, 20)` restituisce un numero da 1 a 20 in maniera casuale
+- `random.choice(classi_disponibili)` → restituisce uno dei valori inseriti nella variabile `classi_disponibili` in maniera casuale
