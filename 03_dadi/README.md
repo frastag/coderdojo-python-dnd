@@ -1,4 +1,4 @@
-# 🐉 Lezione 3 – I Dadi del Destino!
+# 🐉 Incontro 3 – I Dadi del Destino!
 ## Operatori booleani e numeri casuali
  
 ---

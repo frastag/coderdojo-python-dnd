@@ -1,4 +1,4 @@
-# 🐉 Lezione 1 – Creiamo il Nostro Eroe!
+# 🐉 Incontro 1 – Creiamo il Nostro Eroe!
 ## Variabili e tipi di dato in Python
 
 ---
